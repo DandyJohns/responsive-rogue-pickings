@@ -169,15 +169,14 @@ footer span {
 	font-size: .875rem;
 }
 
+/******** TABLET MEDIA QUERY *********/
 @media all and (min-width: 768px) {
-	/* Tablet styles here */
 
-
+	/******** BOTTOM SECTION ********/
 	.bottom-section .content-wrapper {
 		justify-content: space-evenly;
 	}
 
-	/* Desktop width for section 1,2, and 3 is 29% */
 	.section-one {
 		width: 26%;
 	}
@@ -197,6 +196,34 @@ footer span {
 
 }
 
+/******** DESKTOP MEDIA QUERY ********/
 @media all and (min-width: 1200px) {
-	/* Desktop styles here */
+
+	/******** GLOBAL STYLES ********/
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		width: 29%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 21%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
 }
